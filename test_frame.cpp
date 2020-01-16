@@ -1,3 +1,7 @@
+//=========cv_bridge接收图像例程===========
+//接收格式如下
+//created by hqy on 2020.1.16
+
 #include <cv_bridge/cv_bridge.h>
 #include <image_transport/image_transport.h>
 #include <ros/ros.h>
