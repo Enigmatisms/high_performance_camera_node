@@ -20,7 +20,7 @@
 
 using namespace cv;
 
-namespace Camera{
+namespace cm{
 
 #define MAX_IMAGE_DATA_SIZE   (40*1024*1024)
 int frame_empty = 0;
@@ -49,7 +49,7 @@ public:
 };
 }; // namespace Camera
 
-namespace Camera{
+namespace cm{
 bool CameraCtl::printDeviceInfo(MV_CC_DEVICE_INFO* pstMVDevInfo)
 {
     if (NULL == pstMVDevInfo){
